@@ -733,4 +733,6 @@ button {
   position: relative;
   overflow: hidden;
 }
-
+html.w-mod-touch * {
+  background-attachment: scroll!important;
+}
