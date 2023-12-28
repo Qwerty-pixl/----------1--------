@@ -450,10 +450,10 @@ button {
 
 .w-layout-grid {
   grid-row-gap: 16px;
-  grid-column-gap: 16px;
+  grid-column-gap: 40px;
   grid-template-rows: auto auto;
   grid-auto-columns: 1fr;
-  display: grid;
+  
 }
 
 .why-brella__content {
