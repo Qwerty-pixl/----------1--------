@@ -179,6 +179,11 @@ nav{
   padding-bottom: 120px;
   display: flex;
 }
+.brella-brings {
+  background-image: linear-gradient(to right,var(--fog),var(--fog)50%,var(--pine)50%,var(--pine));
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 
 
