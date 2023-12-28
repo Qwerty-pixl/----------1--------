@@ -404,7 +404,6 @@ button {
 .w-layout-grid {
   grid-template-rows: auto auto;
   grid-template-columns: 1fr 1fr;
-  grid-auto-columns: 1fr;
   display: flex;
   box-shadow: rgba(232, 230, 230, 0.6) 1px 1px 4px 0px;
   grid-row-gap: 16px;
