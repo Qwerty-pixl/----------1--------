@@ -2,6 +2,10 @@
     img {
         width: 100%;
     }
+
+    .home-hero__content {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -63,5 +67,24 @@
 
     .main_img_mob {
         display: block;
+    }
+
+    .home-hero__content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .home-hero__content {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .hero__heading-text {
+        margin-bottom: 20px;
+        margin-right: 0;
+        font-size: 28px;
+        line-height: 36px;
     }
 }
