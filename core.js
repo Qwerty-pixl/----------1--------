@@ -37,3 +37,4 @@ function closeOnClick() {
   burger.classList.remove("active");
   body.classList.remove("noscroll");
 }
+
