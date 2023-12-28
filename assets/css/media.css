@@ -156,20 +156,20 @@
 }
 
 @media screen and (max-width: 991px) {
-    .plan__stats-heading {
+    .lit {
         font-size: 50px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .plan__stats-heading {
+    .lit {
         font-size: 40px;
         line-height: 52px;
     }
 }
 
 @media screen and (max-width: 991px) {
-    .plan__stats-heading {
+    .lit {
         font-size: 50px;
     }
 }
