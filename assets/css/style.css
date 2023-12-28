@@ -313,3 +313,14 @@ h1, h2 {
   text-decoration: none;
   position: relative;
 }
+.w-dropdown-btn, .w-dropdown-toggle, .w-dropdown-link {
+  /* vertical-align: top; */
+  /* color: #222; */
+  text-align: left;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-decoration: none;
+  position: relative;
+}
