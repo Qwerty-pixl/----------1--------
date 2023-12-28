@@ -173,7 +173,7 @@ textarea {
 }
 .hero {
   height: 90vh;
-  background-image: url(https://assets-global.website-files.com/60880ca…/60a232a…_Brella-Home-Hero.jpg);
+  background-image: url(/img/backround.jpg);
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
