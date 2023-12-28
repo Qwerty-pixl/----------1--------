@@ -733,6 +733,97 @@ button {
   position: relative;
   overflow: hidden;
 }
-html.w-mod-touch * {
-  background-attachment: scroll!important;
+.dvas {
+  display: flex;
+}
+.dva_left {
+  background: #E3EEED;
+  padding: 120px;
+}
+.dva_right {
+  background: #214E41;
+  padding: 120px;
+}
+.conect {
+  display: inline-flex;
+  padding: 9px 210px 9px 0px;
+  align-items: center;
+  gap: 15px;
+}
+.conect_tit {
+  color: #214E41;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 46px;
+  margin-bottom: 34px;
+}
+.conect_img {
+  width: 30px;
+  height: 23px;
+}
+.str {
+  color: #43806C;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  margin-bottom: 18px;
+}
+.dva_right-txt {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0.02px;
+  width: 491px;
+}
+li {
+  list-style: none;
+  color: #214E41;
+}
+.counter{
+  color: #F0A446;
+    font-family: "Roboto";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+    margin-bottom: 13px;
+}
+.bottom_cards {
+  display: flex;
+  justify-content: space-around;
+}
+.lit{
+  display: flex;
+}
+
+.card_tit {
+  color: #F0A446;
+  font-family: "Roboto";
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 78px;
+  margin-bottom: 13px;
+}
+.card_txt {
+  color: #214E41;
+  font-family: Raleway;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  width: 276px;
+}
+.plan__stats {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
 }
