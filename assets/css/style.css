@@ -522,10 +522,9 @@ button {
 }
 .why-brella__graph-line {
   z-index: 999;
-  width: 200%;
+  width: 230%;
   height: 2px;
-  background-color: var(--sunshade);
-  justify-content: flex-end;
+  background: #F0A446; 
   display: flex;
   position: absolute;
 }
