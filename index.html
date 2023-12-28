@@ -18,18 +18,145 @@
         <div class="bash_img">
           <img src="/img/Frame (4).svg" alt="">
         </div>
-        <nav>
-          <ul class="menu">
-            <li><a href="">Our Plan</a></li>
-            <li><a href="">Employers</a></li>
-            <li><a href="">Brokers</a></li>
-            <li><a href="">Members</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Blog</a></li>
-          </ul>
-          <button class="menu_burger">
-            <i class="burger_line"></i>
-          </button>
+        <nav role="navigation" class="nav__menu w-nav-menu"><a href="/our-supplemental-health-insurance-plan"
+            class="nav__link w-nav-link">Our Plan</a><a href="/employers" class="nav__link w-nav-link">Employers</a><a
+            href="/brokers" class="nav__link w-nav-link">Brokers</a><a href="/members"
+            class="nav__link w-nav-link">Members</a><a href="/about" class="nav__link w-nav-link">About</a><a
+            href="/blog" class="nav__link is--last w-nav-link">Blog</a>
+          <div class="nav__divider"></div>
+          <div class="nav__cta"><a href="/contact" class="brella__button w-button">Let's talk</a></div>
+          <div data-hover="false" data-delay="0" class="nav__link is--login w-dropdown">
+            <div class="dropdown-toggle w-dropdown-toggle" id="w-dropdown-toggle-0" aria-controls="w-dropdown-list-0"
+              aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
+              <div class="nav__dropdown-text">Login</div><img
+                src="https://assets-global.website-files.com/60880caa0bdd455a6dcb9dba/60ba29ee7e0e4c1bfdba3561_arrow-down-pine.svg"
+                loading="lazy" alt="" class="image-27">
+            </div>
+            <nav class="dropdown-list w-dropdown-list" id="w-dropdown-list-0" aria-labelledby="w-dropdown-toggle-0"><a
+                href="https://platform.joinbrella.com/partner/login" target="_blank"
+                class="nav__link-dropdown w-dropdown-link" tabindex="0">Broker</a><a
+                href="https://platform.joinbrella.com/employer/login" target="_blank"
+                class="nav__link-dropdown w-dropdown-link" tabindex="0">Employer</a><a
+                href="https://platform.joinbrella.com/member/login" target="_blank"
+                class="nav__link-dropdown w-dropdown-link" tabindex="0">Member</a></nav>
+          </div>
+          <div class="nav__tr">
+            <div class="wg-element-wrapper sw5">
+              <div data-hover="true" data-delay="300" data-w-id="9a40d1eb-8d8c-e0cb-646b-c867446efd74"
+                class="wg-dropdown-1-2 w-dropdown" style="background-color: rgba(0, 0, 0, 0);">
+                <div lang="en" class="wg-dd-1-togle-2 w-dropdown-toggle" id="w-dropdown-toggle-1"
+                  aria-controls="w-dropdown-list-1" aria-haspopup="menu" aria-expanded="false" role="button"
+                  tabindex="0">
+                  <div>en</div>
+                </div>
+                <nav data-w-id="9a40d1eb-8d8c-e0cb-646b-c867446efd78" class="wg-dd-1-list w-dropdown-list"
+                  id="w-dropdown-list-1" aria-labelledby="w-dropdown-toggle-1"
+                  style="height: 0%; background-color: rgba(0, 0, 0, 0);"><a href="#" lang="es"
+                    class="wg-dropdown-1-link-2 w-dropdown-link" tabindex="0">es</a></nav>
+              </div>
+            </div>
+            <div class="wg-code w-embed w-script">
+              <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+              <script>
+                // init Weglot
+                Weglot.initialize({
+                  api_key: 'wg_62d9b9b0750831f48721322c8384946b6'
+                });
+
+                // on Weglot init
+                Weglot.on('initialized', () => {
+                  // get the current active language
+                  const currentLang = Weglot.getCurrentLang();
+                  // call updateDropdownLinks function
+                  updateSW5DropdownLinks(currentLang);
+                });
+
+                // for each of the .wg-element-wrapper language links
+                document.querySelectorAll('.wg-element-wrapper.sw5 [lang]').forEach((link) => {
+                  // add a click event listener
+                  link.addEventListener('click', function (e) {
+                    // prevent default
+                    e.preventDefault();
+                    // switch to the current active language      
+                    Weglot.switchTo(this.getAttribute('lang'));
+                    // call updateDropdownLinks function
+                    updateSW5DropdownLinks(this.getAttribute('lang'));
+                  });
+                });
+
+                // updateDropdownLinks function
+                function updateSW5DropdownLinks(currentLang) {
+                  // get the wrapper element
+                  const $wrapper = document.querySelector('.wg-element-wrapper.sw5');
+                  // if the .w-dropdown-toggle is not the current active language
+                  if ($wrapper.querySelector('.w-dropdown-toggle').getAttribute('lang') !== currentLang) {
+                    // get the current active language link
+                    const $activeLangLink = $wrapper.querySelector('[lang=' + currentLang + ']');
+                    // swap the dropdown toggle's text with the current active language link text
+                    const $toggle = $activeLangLink.closest('.wg-element-wrapper').querySelector('.w-dropdown-toggle');
+                    const toggleTxt = $toggle.textContent;
+                    const activeLangLinkTxt = $activeLangLink.textContent;
+                    $toggle.querySelector('div').textContent = activeLangLinkTxt;
+                    $activeLangLink.textContent = toggleTxt;
+                    // swap the dropdown toggle's lang attr with the current active language link lang attr  
+                    const lang = $activeLangLink.getAttribute('lang');
+                    const toggleLang = $toggle.getAttribute('lang');
+                    $toggle.setAttribute('lang', lang);
+                    $activeLangLink.setAttribute('lang', toggleLang);
+                  }
+                }
+              </script>
+            </div>
+            <div data-w-id="50863847-0581-eb90-1ce7-bcfcdbb2334e" class="wg-element-wrapper sw3" style="opacity: 1;"><a
+                lang="en" data-w-id="50863847-0581-eb90-1ce7-bcfcdbb2334f" href="#"
+                class="wg-selector-2 s1 w-inline-block">
+                <div class="wg-selector-2-fill f1"
+                  style="transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                </div>
+                <div class="wg-selector2-text-lang1"
+                  style="transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d; color: rgb(255, 255, 255);">
+                  EN</div>
+              </a><a lang="es" data-w-id="50863847-0581-eb90-1ce7-bcfcdbb23353" href="#"
+                class="wg-selector-2 s2 w-inline-block">
+                <div class="wg-selector-2-fill f2"
+                  style="transform: translate3d(-100%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                </div>
+                <div class="wg-selector2-text-lang2"
+                  style="color: rgb(33, 78, 65); transform: translate3d(0%, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+                  ES</div>
+              </a></div>
+            <div class="wg-code w-embed w-script">
+              <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+              <script>
+                // init Weglot
+                Weglot.initialize({
+                  api_key: 'wg_62d9b9b0750831f48721322c8384946b6'
+                });
+
+                // on Weglot init
+                Weglot.on('initialized', () => {
+                  // get the current active language
+                  const currentLang = Weglot.getCurrentLang();
+                  // if the current active language link exists
+                  if (document.querySelector('.wg-element-wrapper.sw3 [lang=' + currentLang + ']')) {
+                    // click the link
+                    document.querySelector('.wg-element-wrapper.sw3 [lang=' + currentLang + ']').click();
+                  }
+                });
+
+                // for each of the .wg-element-wrapper language links
+                document.querySelectorAll('.wg-element-wrapper.sw3 [lang]').forEach((link) => {
+                  // add a click event listener
+                  link.addEventListener('click', function (e) {
+                    // prevent default
+                    e.preventDefault();
+                    // switch current active language after a setTimeout
+                    setTimeout(() => Weglot.switchTo(this.getAttribute('lang')), 700);
+                  });
+                });
+              </script>
+            </div>
+          </div>
         </nav>
 
       </div>
@@ -136,104 +263,7 @@
       </div>
     </div>
   </div>
-  <div class="brella-brings">
-    <div class="container is--brella-brings">
-      <div class="pre-header is--dark">brella brings</div>
-      <div data-duration-in="300" data-duration-out="100" data-current="Tab 1" data-easing="ease"
-        class="brella-brings__tabs w-tabs">
-        <div data-w-id="69177ce3-77d6-4b59-8dda-7d5b8e10d449" class="brella-brings__menu w-tab-menu" role="tablist"><a
-            data-w-tab="Tab 1" data-w-id="69177ce3-77d6-4b59-8dda-7d5b8e10d44a"
-            style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
-            class="brella-brings__tab w-inline-block w-tab-link w--current" id="w-tabs-0-data-w-tab-0"
-            href="#w-tabs-0-data-w-pane-0" role="tab" aria-controls="w-tabs-0-data-w-pane-0" aria-selected="true">
-            <div class="brella-brings__heading">Customizable benefits</div><img
-              data-w-id="40e5bc03-1fd5-19cb-290d-52015f465671" alt=""
-              src="https://assets-global.website-files.com/60880caa0bdd455a6dcb9dba/608a620584a2382fcf4bca26_arrow-right.svg"
-              loading="lazy" class="brella-brings__arrow">
-          </a><a data-w-tab="Tab 2" data-w-id="69177ce3-77d6-4b59-8dda-7d5b8e10d44d"
-            style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
-            class="brella-brings__tab w-inline-block w-tab-link" tabindex="-1" id="w-tabs-0-data-w-tab-1"
-            href="#w-tabs-0-data-w-pane-1" role="tab" aria-controls="w-tabs-0-data-w-pane-1" aria-selected="false">
-            <div class="brella-brings__heading">Paperless install &amp; admin</div><img style="display:none"
-              data-w-id="825f7cdd-cc3e-b3e8-d27a-179102518d0e"
-              src="https://assets-global.website-files.com/60880caa0bdd455a6dcb9dba/608a620584a2382fcf4bca26_arrow-right.svg"
-              loading="lazy" alt="" class="brella-brings__arrow">
-          </a><a data-w-tab="Tab 3" data-w-id="69177ce3-77d6-4b59-8dda-7d5b8e10d450"
-            style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
-            class="brella-brings__tab w-inline-block w-tab-link" tabindex="-1" id="w-tabs-0-data-w-tab-2"
-            href="#w-tabs-0-data-w-pane-2" role="tab" aria-controls="w-tabs-0-data-w-pane-2" aria-selected="false">
-            <div class="brella-brings__heading">Effortless enrollment</div><img style="display:none"
-              data-w-id="1f65857d-9e61-e21e-b3fe-5747ad10dcef"
-              src="https://assets-global.website-files.com/60880caa0bdd455a6dcb9dba/608a620584a2382fcf4bca26_arrow-right.svg"
-              loading="lazy" alt="" class="brella-brings__arrow">
-          </a><a data-w-tab="Tab 4" data-w-id="39e39d82-01c9-0ee7-8e06-f43e2df4ede7"
-            style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
-            class="brella-brings__tab w-inline-block w-tab-link" tabindex="-1" id="w-tabs-0-data-w-tab-3"
-            href="#w-tabs-0-data-w-pane-3" role="tab" aria-controls="w-tabs-0-data-w-pane-3" aria-selected="false">
-            <div class="brella-brings__heading">Easy claims experience</div><img style="display:none"
-              data-w-id="2b32cfea-22f9-33ac-e643-792a2228d491"
-              src="https://assets-global.website-files.com/60880caa0bdd455a6dcb9dba/608a620584a2382fcf4bca26_arrow-right.svg"
-              loading="lazy" alt="" class="brella-brings__arrow">
-          </a><a data-w-tab="Tab 5" data-w-id="f9375ad0-aace-ac43-3678-78390127c673"
-            style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
-            class="brella-brings__tab w-inline-block w-tab-link" tabindex="-1" id="w-tabs-0-data-w-tab-4"
-            href="#w-tabs-0-data-w-pane-4" role="tab" aria-controls="w-tabs-0-data-w-pane-4" aria-selected="false">
-            <div class="brella-brings__heading">Fast benefit payouts</div><img style="display:none"
-              data-w-id="bc015fe7-d886-79f6-0076-5cd9cf7b29bf"
-              src="https://assets-global.website-files.com/60880caa0bdd455a6dcb9dba/608a620584a2382fcf4bca26_arrow-right.svg"
-              loading="lazy" alt="" class="brella-brings__arrow">
-          </a><a data-w-tab="Tab 6" data-w-id="a1ce6b31-3d24-b7cc-0523-df1898e90cef"
-            style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); opacity: 1; transform-style: preserve-3d;"
-            class="brella-brings__tab w-inline-block w-tab-link" tabindex="-1" id="w-tabs-0-data-w-tab-5"
-            href="#w-tabs-0-data-w-pane-5" role="tab" aria-controls="w-tabs-0-data-w-pane-5" aria-selected="false">
-            <div class="brella-brings__heading">Dedicated support</div><img style="display:none"
-              data-w-id="e857c909-0a87-45a5-e652-fe50fa8347a9"
-              src="https://assets-global.website-files.com/60880caa0bdd455a6dcb9dba/608a620584a2382fcf4bca26_arrow-right.svg"
-              loading="lazy" alt="" class="brella-brings__arrow">
-          </a></div>
-        <div class="brella-brings__answer w-tab-content">
-          <div data-w-tab="Tab 1" class="brella-brings__pane w-tab-pane w--tab-active" id="w-tabs-0-data-w-pane-0"
-            role="tabpanel" aria-labelledby="w-tabs-0-data-w-tab-0">
-            <p class="brella-brings__answer-text">Every Brella plan comes with a benefit for Moderate, Severe, and
-              Catastrophic conditions. Employees can select the payout amounts that fit their needs and their
-              budget.<br><br>Employers can fund part or all of the premiums—or offer Brella as a voluntary benefit. The
-              choice is up to you.</p>
-          </div>
-          <div data-w-tab="Tab 2" class="brella-brings__pane w-tab-pane" id="w-tabs-0-data-w-pane-1" role="tabpanel"
-            aria-labelledby="w-tabs-0-data-w-tab-1">
-            <p class="brella-brings__answer-text">We built Brella to make your life easier.<br><br>Brella is 100%
-              paperless from quote to contract to claim. Plus, our online Employer Portal and flexible enrollment
-              options make administration a snap.</p>
-          </div>
-          <div data-w-tab="Tab 3" class="w-tab-pane" id="w-tabs-0-data-w-pane-2" role="tabpanel"
-            aria-labelledby="w-tabs-0-data-w-tab-2">
-            <p class="brella-brings__answer-text">Employees can use our online shopping platform to learn about Brella
-              and customize their benefits.<br><br>Enroll via our platform or we’ll plug into yours. We work with most
-              major benefits administration platforms.</p>
-          </div>
-          <div data-w-tab="Tab 4" class="w-tab-pane" id="w-tabs-0-data-w-pane-3" role="tabpanel"
-            aria-labelledby="w-tabs-0-data-w-tab-3">
-            <p class="brella-brings__answer-text">Forget forms and faxes. Employees can file a claim via our mobile app
-              or online member portal.<br><br>They’ll answer a few questions and upload photos of documents they have on
-              hand from their provider visit. That’s it!</p>
-          </div>
-          <div data-w-tab="Tab 5" class="w-tab-pane" id="w-tabs-0-data-w-pane-4" role="tabpanel"
-            aria-labelledby="w-tabs-0-data-w-tab-4">
-            <p class="brella-brings__answer-text">With Brella, your people can file a claim as soon as they’re diagnosed
-              with information they may have on hand.<br><br>We pay benefits on approved claims via Venmo, Paypal, or to
-              a designated bank account— typically within 72 hours. Employees can choose their payment preferences in
-              advance.</p>
-          </div>
-          <div data-w-tab="Tab 6" class="brella-brings__pane w-tab-pane" id="w-tabs-0-data-w-pane-5" role="tabpanel"
-            aria-labelledby="w-tabs-0-data-w-tab-5">
-            <p class="brella-brings__answer-text">Both employers and employees have dedicated support throughout their
-              membership. So you can talk to the same person any time you call.<br><br>Our team is standing by to listen
-              and answer questions Monday through Friday.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+
 </body>
 
 </html>
