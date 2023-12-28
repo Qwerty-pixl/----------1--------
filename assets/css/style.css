@@ -262,3 +262,54 @@ h1, h2 {
   padding-left: 0;
   display: block;
 }
+.w-icon-dropdown-toggle {
+  width: 1em;
+  height: 1em;
+  margin: auto 20px auto auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.hero__toggle-text {
+  padding-right: 0;
+}
+.hero__dropdown-list {
+  background-color: transparent;
+}
+.w-dropdown-list {
+  min-width: 100%;
+  background: #ddd;
+  display: none;
+  position: absolute;
+}
+.hero__search-link {
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+
+
+.hero__search-link {
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.w-dropdown-link {
+    color: #222;
+    padding: 10px 20px;
+    display: block;
+}
+.w-dropdown-link {
+  vertical-align: top;
+  color: #222;
+  text-align: left;
+  white-space: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-decoration: none;
+  position: relative;
+}
