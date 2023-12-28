@@ -713,3 +713,11 @@ button {
   align-items: stretch;
   font-weight: 600;
 }
+.wg-element-wrapper.sw3 {
+  display: none;
+}
+.wg-element-wrapper {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
