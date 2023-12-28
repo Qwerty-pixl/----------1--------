@@ -87,4 +87,17 @@
         font-size: 28px;
         line-height: 36px;
     }
+
+    .usps__grid {
+        grid-row-gap: 40px;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: 1fr;
+    }
 }
+
+@media screen and (max-width: 991px) {
+    .usps__grid {
+        padding: 35px 30px;
+    }
+}
+
