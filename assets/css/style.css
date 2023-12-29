@@ -1104,3 +1104,12 @@ span {
 .footer__ghost-div {
   display: none;
 }
+.footer__heading {
+  color: #fff;
+  text-align: left;
+  letter-spacing: .02px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-weight: 600;
+  line-height: 24px;
+}
