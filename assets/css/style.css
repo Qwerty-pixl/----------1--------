@@ -1113,3 +1113,8 @@ span {
   font-weight: 600;
   line-height: 24px;
 }
+.footer__link-grid {
+  grid-row-gap: 15px;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: 1fr;
+}
