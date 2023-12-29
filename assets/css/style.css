@@ -1138,3 +1138,8 @@ span {
   flex-direction: column;
   display: flex;
 }
+.footer__form {
+  border: 1px solid #fff;
+  margin-bottom: 10px;
+  display: flex;
+}
