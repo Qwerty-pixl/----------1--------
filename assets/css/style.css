@@ -1150,3 +1150,13 @@ span {
   margin-bottom: 0;
   padding: 25px;
 }
+.footer__form-button {
+  color: transparent;
+  background-color: #fff;
+  background-image: url(https://assets-global.website-files.com/60880ca…/608a620…_arrow-right.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
