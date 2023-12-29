@@ -946,3 +946,23 @@ img {
 .logos__list {
   display: block !important;
 }
+.logos__item {
+  display: inline-block;
+}
+.logos__link {
+  width: 100%;
+  height: 70px;
+  object-fit: fill;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+}
+.logos__img {
+  width: auto;
+  height: 60px;
+  object-fit: contain;
+}
