@@ -1182,3 +1182,6 @@ span {
 .footer__recaptcha {
   margin-bottom: 0;
 }
+.w-form-formrecaptcha {
+  margin-bottom: 8px;
+}
