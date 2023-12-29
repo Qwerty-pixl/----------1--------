@@ -1176,3 +1176,6 @@ span {
   align-items: center;
   display: flex;
 }
+.footer__social-link {
+  margin-right: 25px;
+}
