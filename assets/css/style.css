@@ -1034,3 +1034,6 @@ span {
   width: 50%;
   padding-left: 120px;
 }
+.cta-block__heading {
+  margin-bottom: 60px;
+}
