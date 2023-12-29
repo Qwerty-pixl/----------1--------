@@ -242,4 +242,9 @@
         padding: 150px 150px 0 ;
         position: static;
     }
+    .employers {
+        background-position: 20% 0;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
 }
