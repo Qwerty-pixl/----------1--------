@@ -966,3 +966,34 @@ img {
   height: 60px;
   object-fit: contain;
 }
+.slips {
+  justify-content: center;
+  gap: 40px;
+  flex-shrink: 0;
+}
+span {
+  color: #43806C;
+  font-family: Raleway;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.slip_img {
+  width: 355px;
+  height: 237px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+}
+.slip_txt {
+  color: #214E41;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  width: 342px;
+}
