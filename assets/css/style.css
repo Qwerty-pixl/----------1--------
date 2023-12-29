@@ -845,6 +845,7 @@ li {
   justify-content: flex-end;
   align-items: center;
   display: flex;
+
 }
 .claims__content {
   flex-direction: column;
