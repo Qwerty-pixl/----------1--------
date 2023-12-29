@@ -614,9 +614,6 @@ transition: 3s;
   height: 300px;
 }
 
-
-Resources
-
 .why-brella__bar-text {
   text-align: center;
   font-size: 13px;
@@ -1015,4 +1012,25 @@ span {
   font-weight: 700;
   line-height: 26px;
   width: 342px;
+}
+.cta-block {
+  background-color: var(--fog);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  position: relative;
+}
+.cta-block__img-div {
+  width: 50%;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: auto;
+}
+.container.is--plan-easy {
+  align-items: flex-end;
+}
+.cta-block__content {
+  width: 50%;
+  padding-left: 120px;
 }
