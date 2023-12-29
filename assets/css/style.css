@@ -1068,3 +1068,13 @@ span {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+.footer__content {
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  grid-template-rows: auto;
+  margin-bottom: 70px;
+  padding-bottom: 70px;
+}
+.footer__terms {
+  margin-bottom: 90px;
+}
