@@ -1101,3 +1101,6 @@ span {
   align-items: flex-start;
   display: flex;
 }
+.footer__ghost-div {
+  display: none;
+}
