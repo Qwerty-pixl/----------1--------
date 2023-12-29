@@ -261,3 +261,31 @@
         display: block;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .logos {
+        margin-top: 100px;
+        margin-bottom: 0;
+    }
+
+    .line-divider {
+        width: auto;
+        margin-top: 100px;
+        margin-left: 45px;
+        margin-right: 45px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .logos__div {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .logo-slider,
+    .latest-blogs__arrows {
+        display: none;
+    }
+}
