@@ -1143,3 +1143,10 @@ span {
   margin-bottom: 10px;
   display: flex;
 }
+.footer__form-field {
+  color: #fff;
+  background-color: transparent;
+  border: 1px #000;
+  margin-bottom: 0;
+  padding: 25px;
+}
