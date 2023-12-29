@@ -239,12 +239,25 @@
 @media screen and (max-width: 767px) {
     .claims__device {
         background-color: #E3EEED;
-        padding: 150px 150px 0 ;
+        padding: 150px 150px 0;
         position: static;
     }
+
     .employers {
-        background-position: 20% 0;
         padding-top: 80px;
         padding-bottom: 80px;
+    }
+
+    .employers__content.info-block {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .employers {
+        background-image: url(/img/mob_woman.jpg);
+        background-position: 0 0;
+        padding-bottom: 280px;
+        display: block;
     }
 }
