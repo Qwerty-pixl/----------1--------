@@ -1086,3 +1086,6 @@ span {
 .footer__terms-form-number {
   margin-top: 1rem;
 }
+.footer__social-div {
+  width: 60%;
+}
