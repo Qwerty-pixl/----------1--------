@@ -1096,3 +1096,8 @@ span {
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.footer__logo-div {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
