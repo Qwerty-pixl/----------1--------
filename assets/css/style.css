@@ -1037,3 +1037,16 @@ span {
 .cta-block__heading {
   margin-bottom: 60px;
 }
+.button {
+  min-width: 125px;
+  border: 1px solid var(--eucalyptus);
+  background-color: var(--eucalyptus);
+  color: #fff;
+  text-align: center;
+  letter-spacing: .02px;
+  border-radius: 6px;
+  margin-top: 0;
+  padding: 12px 20px;
+  font-weight: 600;
+  line-height: 21px;
+}
