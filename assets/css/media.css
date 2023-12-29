@@ -288,4 +288,34 @@
     .latest-blogs__arrows {
         display: none;
     }
+
+    .cta-block {
+        padding-bottom: 80px;
+        position: static;
+    }
+
+    .cta-block__img {
+        height: 300px;
+        object-position: 50% 0%;
+    }
+    .cta-block__heading {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .cta-block {
+        padding-bottom: 100px;
+        padding-top: 0;
+    }
+
+    .cta-block__img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .cta-block__img-div {
+        width: 100%;
+        position: static;
+    }
 }
