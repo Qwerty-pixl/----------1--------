@@ -226,16 +226,20 @@
         align-items: center;
         display: flex;
     }
-}
 
-@media screen and (max-width: 991px) {
     .claims__content.info-block {
         padding-bottom: 100px;
     }
-}
 
-@media screen and (max-width: 991px) {
     .claims__content {
         padding-left: 45px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .claims__device {
+        background-color: #E3EEED;
+        padding: 150px 150px 0 ;
+        position: static;
     }
 }
