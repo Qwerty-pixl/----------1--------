@@ -854,3 +854,20 @@ li {
   padding-left: 120px;
   display: flex;
 }
+.employers {
+  background-image: url();
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  display: block;
+}
+.employers__content.info-block {
+  width: 50%;
+  padding-bottom: 0;
+}
+.employers__div {
+  margin-right: 100px;
+}
