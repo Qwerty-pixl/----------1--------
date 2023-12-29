@@ -403,7 +403,6 @@ button {
 .w-layout-grid {
   grid-template-rows: auto auto;
   display: flex;
-  box-shadow: rgba(232, 230, 230, 0.6) 1px 1px 4px 0px;
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 
@@ -419,7 +418,9 @@ button {
   border-radius: 6px;
   padding: 50px;
 }
-
+.footer__form-block {
+  margin-bottom: 30px;
+}
 .usps__block {
   justify-content: flex-start;
   align-items: flex-start;
@@ -1184,4 +1185,15 @@ span {
 }
 .w-form-formrecaptcha {
   margin-bottom: 8px;
+}
+.w-form {
+  margin: 0 0 15px;
+}
+iframe {
+  overflow-clip-margin: content-box !important;
+  overflow: clip !important;
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
 }
