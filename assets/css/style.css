@@ -498,9 +498,7 @@ button {
   align-items: flex-end;
   display: flex;
 }
-.graph_img{
-  max-width: 100%;
-}
+
 .why-brella__column {
   align-items: flex-end;
   display: flex;
@@ -832,4 +830,26 @@ li {
 }
 .phone_p{
   justify-content: space-between;
+}
+.claims__grid {
+  width: 100%;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  grid-template-rows: auto;
+  grid-template-columns: .75fr 1fr;
+}
+.claims__device {
+  height: auto;
+  object-fit: fill;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+.claims__content {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 120px;
+  display: flex;
 }
