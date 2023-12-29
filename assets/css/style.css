@@ -1160,3 +1160,9 @@ span {
   padding-left: 25px;
   padding-right: 25px;
 }
+.w-form-done {
+  text-align: center;
+  background-color: #ddd;
+  padding: 20px;
+  display: none;
+}
