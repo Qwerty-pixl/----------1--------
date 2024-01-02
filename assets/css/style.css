@@ -168,9 +168,6 @@ nav {
   display: flex;
 }
 
-li {
-  padding: 0 auto;
-}
 
 .hero {
   height: 90vh;
@@ -844,6 +841,7 @@ button {
 li {
   list-style: none;
   color: #214E41;
+  padding: 0 40px;
 }
 
 .counter {
