@@ -164,3 +164,8 @@ textarea {
   left: 0;
   top: -10px;
 }
+.user-list {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
