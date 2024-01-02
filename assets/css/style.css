@@ -155,3 +155,12 @@ textarea {
   padding-left: 30px;
   position: relative;
 }
+.header__address::before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/address-icon.svg);
+  width: 30px;
+  height: 30px;
+  left: 0;
+  top: -10px;
+}
