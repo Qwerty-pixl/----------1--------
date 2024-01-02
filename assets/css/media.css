@@ -99,6 +99,11 @@
     .usps__grid {
         padding: 35px 30px;
     }
+    .container.is--plan-easy {
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -298,6 +303,7 @@
         height: 300px;
         object-position: 50% 0%;
     }
+
     .cta-block__heading {
         text-align: left;
     }
