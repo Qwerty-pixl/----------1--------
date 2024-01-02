@@ -126,3 +126,11 @@ textarea {
 .header {
   margin-bottom: 80px;
 }
+.header__top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 122px;
+  font-family: 'SFProDisplay-Bold', sans-serif;
+  font-weight: 700;
+}
