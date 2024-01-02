@@ -146,3 +146,6 @@ textarea {
 .menu__item {
   display: inline-block;
 }
+.header__box {
+  display: flex;
+}
