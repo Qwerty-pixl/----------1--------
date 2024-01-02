@@ -142,3 +142,6 @@ textarea {
 .menu__btn {
   display: none;
 }
+.menu__item {
+  display: inline-block;
+}
