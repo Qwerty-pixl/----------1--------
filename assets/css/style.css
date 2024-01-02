@@ -149,3 +149,9 @@ textarea {
 .header__box {
   display: flex;
 }
+.header__address {
+  margin-right: 60px;
+  width: 265px;
+  padding-left: 30px;
+  position: relative;
+}
