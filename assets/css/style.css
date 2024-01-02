@@ -169,3 +169,6 @@ textarea {
   display: flex;
   align-items: center;
 }
+.user-list__item {
+  padding-left: 10px;
+}
